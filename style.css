@@ -45,22 +45,17 @@ header{
 #first_button{
     color: white;
 }
-
 #second_button{
     background-color: white;
     color: #D9DDE0;
     border: 1px solid #F0F2F3;
-
 }
-
 .main_text {
     font-size: 20px;
 }
-
 .arrow {
     font-size: 15px;
 }
-
 .cloud{
     border: 1px transparent black;
     margin-left: 10px;
@@ -84,29 +79,23 @@ header{
 #Goals{
     background-color: #9C72E4;
 }
-
 h2{
-    padding-top: 20px;
+    padding-top: 15px;
 }
 h3{
-    padding-bottom: 20px;
+    padding-bottom: 1px;
+    padding-top: 20px;
 }
 #Recruting{
     background-color: #64C0A9;
 }
-
 #Mobile{
     background-color: #F29E33;
 }
-
 #website{
     background-color: #D863A1;
 }
 #Sales{
     background-color: #B0C926;
-
 }
-
-
-
 /* /region main */
