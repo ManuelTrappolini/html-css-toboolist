@@ -4,7 +4,14 @@
     padding: 0;
 }
 
+body{
+    background-color: #F6F8F9;
+}
+
 /* Region header */
+header{
+    background-color: white;
+}
 .logo_text {
     display: inline-block;
     vertical-align: middle;
@@ -17,3 +24,35 @@
 /* /region header */
 
 /* region main */
+.container{
+    margin: auto;
+    width: 85%;
+    background-color: white;
+    height: 100%;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    border-bottom: solid 1px lightgray;
+}
+.button{
+    padding: 6px;
+    background-color: #47ADF1;
+    border-radius: 5px;
+    border:  transparent 1px;
+    
+}
+#first_button{
+    color: white;
+}
+
+#second_button{
+    background-color: white;
+    color: #D9DDE0;
+    border: 1px solid #F0F2F3;
+
+}
+
+.main_text {
+    font-size: 20px;
+}
