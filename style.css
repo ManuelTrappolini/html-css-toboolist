@@ -7,4 +7,13 @@
 /* Region header */
 .logo_text {
     display: inline-block;
+    vertical-align: middle;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
+.logo_img{
+    vertical-align: middle;
+}
+/* /region header */
+
+/* region main */
