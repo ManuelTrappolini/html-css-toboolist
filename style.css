@@ -11,6 +11,7 @@ body{
 /* Region header */
 header{
     background-color: white;
+    margin-bottom: 40px;
 }
 .logo_text {
     display: inline-block;
@@ -29,11 +30,10 @@ header{
     width: 85%;
     background-color: white;
     height: 100%;
-    margin-top: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 50px;
-    border-bottom: solid 1px lightgray;
+    border-bottom: solid 1px #F6F8F9;
 }
 .button{
     padding: 6px;
@@ -56,3 +56,39 @@ header{
 .main_text {
     font-size: 20px;
 }
+
+.arrow {
+    font-size: 15px;
+}
+
+.cloud{
+    border: 1px transparent black;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 6px;
+    color: white;
+    font-size: 12px;
+}
+#first_editorial{
+    background-color: #45ABE9;
+}
+#second_editorial{
+    background-color: #45ABE9;
+}
+#Goals{
+    background-color: #9C72E4;
+}
+
+h2{
+    padding-top: 20px;
+}
+h3{
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+/* /region main */
