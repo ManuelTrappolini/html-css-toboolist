@@ -27,7 +27,7 @@ header{
 /* region main */
 .container{
     margin: auto;
-    width: 85%;
+    width: 70%;
     background-color: white;
     height: 100%;
     padding-top: 10px;
@@ -65,7 +65,10 @@ header{
     border: 1px transparent black;
     margin-left: 10px;
     border-radius: 10px;
-    padding: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     color: white;
     font-size: 12px;
 }
@@ -73,6 +76,9 @@ header{
     background-color: #45ABE9;
 }
 #second_editorial{
+    background-color: #45ABE9;
+}
+#third_editorial{
     background-color: #45ABE9;
 }
 #Goals{
@@ -85,9 +91,21 @@ h2{
 h3{
     padding-bottom: 20px;
 }
+#Recruting{
+    background-color: #64C0A9;
+}
 
+#Mobile{
+    background-color: #F29E33;
+}
 
+#website{
+    background-color: #D863A1;
+}
+#Sales{
+    background-color: #B0C926;
 
+}
 
 
 
