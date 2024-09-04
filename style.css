@@ -78,6 +78,11 @@ header{
     border: 1px solid #EB5852;
 }
 
+li{
+    list-style: none;
+    padding-top: 15px;
+}
+
 .cloud{
     border: 1px transparent black;
     margin-left: 10px;
