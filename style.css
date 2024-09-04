@@ -1,8 +1,10 @@
+/* region common */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+/* endregion common */
 
 body{
     background-color: #F6F8F9;
@@ -13,7 +15,7 @@ header{
     background-color: white;
     margin-bottom: 40px;
 }
-.logo_text {
+.logo_text{
     display: inline-block;
     vertical-align: middle;
     font-size: 40px;
@@ -22,7 +24,7 @@ header{
 .logo_img{
     vertical-align: middle;
 }
-/* /region header */
+/* endregion header */
 
 /* region main */
 .container{
@@ -36,14 +38,13 @@ header{
     border-bottom: solid 1px #F6F8F9;
 }
 .button{
-    padding: 6px;
-    background-color: #47ADF1;
+    padding:6px;                                   
     border-radius: 5px;
     border:  transparent 1px;
-    
 }
 #first_button{
     color: white;
+    background-color: #47ADF1;
 }
 #second_button{
     background-color: white;
@@ -52,10 +53,30 @@ header{
 }
 .main_text {
     font-size: 20px;
+
 }
 .arrow {
     font-size: 15px;
 }
+
+.circle{   
+    border-radius: 0.75rem;
+    height: 15px;
+    width: 15px;
+    font-size: 8px; 
+    display: inline-block;
+    text-align: center;
+} 
+
+.check{
+    color: #65C0A9;
+    border: 1px solid #65C0A9;
+}
+.cross{
+    color: #EB5852;
+    border: 1px solid #EB5852;
+}
+
 .cloud{
     border: 1px transparent black;
     margin-left: 10px;
@@ -98,4 +119,4 @@ h3{
 #Sales{
     background-color: #B0C926;
 }
-/* /region main */
+/* endregion main */
